@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>TRAVIS SCOTT</title>
+    <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body class="body">
+
+    <div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
+
+
+
+    <header class="header">
+        <div class="header_inner">
+            <a href="/">
+                <img src="images/logo_white 1.svg" alt="logo" width="80" height="32">
+            </a>
+            <nav class="header_nav">
+                <ul class="header_list">
+
+                    <li>
+                        <a class="header_link" href="/">ГЛАВНАЯ</a>
+                    </li>
+                    <li>
+                        <a class="header_link" href="/">БИОГРАФИЯ</a>
+                    </li>
+                    <li>
+                        <a class="header_link" href="/">ДИСКОГРАФИЯ</a>
+                    </li>
+                    <li>
+                        <a class="header_link" href="/">НОВОСТИ</a>
+                    </li>
+                    <li>
+                        <a class="header_btn" href="/">RU</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="banner">
+            <img src="images/banner.gif">
+            <a class="banner_btn" href="/">ПОДРОБНЕЕ</a>
+        </div>
+
+        <div class="info">
+            <div class="main_text">
+                <h1 class="main_title">Travis Scott
+                    <p>Больше, чем просто артист.</p>
+                </h1>
+                <h2 class="main_subtext"><span>Travis Scott</span> – это новатор, который не боится
+                    экспериментировать и
+                    раздвигать границы. Его
+                    музыкальные эксперименты, смелые коллаборации и инновационный подход к созданию визуальных
+                    образов сделали его одним из самых влиятельных и востребованных артистов нашего времени.</h2>
+            </div>
+            <img src="images/main.png" class="main_img">
+        </div>
+    </div>
+
+    <div class="bg_line"></div>
+
+
+    <div class="container">
+        <div class="work_info">
+            <h2 class="work_title">ИЗБРАННЫЕ РАБОТЫ</h2>
+            <div class="work_slide">
+                <img src="images/astro.png" class="work_png2" height="200px">
+                <img src="images/rodeo.png" class="work_png1" height="325px">
+                <img src="images/utopia.png" class="work_png2" height="200px">
+            </div>
+            <div class="work_text">
+                <p><span>Rodeo</span> - дебютный студийный альбом.</p>
+                <p>
+                    Альбом получил положительные отзывы критиков и дебютировал на позиции №3 в американском
+                    Billboard 200. </p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="bg_line2"></div>
+
+    <div class="video_block">
+        <div class="container">
+            <div class="video">
+                <video controls="controls autoplay" width="1000" poster="images/poster.png">
+                    <source src="images/video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="footer_inner">
+            <a href="/">
+                <img src="images/logo_white 1.svg" alt="logo" width="80" height="32">
+            </a>
+            <div class="footer_btns">
+                <ul class="footer_list">
+                    <li>
+                        <a class="footer_link">scottinfo1212gmail.com</a>
+                    </li>
+                    <li>
+                        <a class="footer_link" href="/">Ссылка на отчет</a>
+                    </li>
+                    <li>
+                        <a class="footer_btn" href="/">Контакты</a>
+                    </li>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        window.onload = function () {
+            document.body.classList.add('loaded_hiding');
+            window.setTimeout(function () {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('loaded_hiding');
+            }, 500);
+        }
+    </script>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
